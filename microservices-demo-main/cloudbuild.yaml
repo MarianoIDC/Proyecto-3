@@ -33,7 +33,7 @@ steps:
   - '-c'
   - >
     gcloud container clusters get-credentials --zone=us-east1;
-    skaffold run -f=skaffold.yaml --default-repo=gcr.io/proyecto-3-353100;
+    skaffold run -f=microservices-demo-main/skaffold.yaml --default-repo=gcr.io/proyecto-3-353100;
 
 # Add more power, and more time, for heavy Skaffold build
 timeout: '3600s'
