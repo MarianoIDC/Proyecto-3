@@ -19,8 +19,8 @@ steps:
   - '-c'
   - |
       echo "branch $BRANCH_NAME"
-      ls -list Proyecto1/ProyectoLuisPrieto/terraform
-      cd Proyecto1/ProyectoLuisPrieto/terraform
+      ls -list Proyecto-3/terraform
+      cd Proyecto-3/terraform
       echo "run init"
       terraform init
       echo "run plan"
